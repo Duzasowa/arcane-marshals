@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="FactionDef" format=3]
+
+[ext_resource type="Script" path="res://game/data/faction_def.gd" id="1_kkbes"]
+
+[resource]
+script = ExtResource("1_kkbes")
+school = &"order"
+color = Color(0.86, 0.83, 0.62, 1)
+id = &"throne"
+name_key = &"FACTION_THRONE_NAME"
+desc_key = &"FACTION_THRONE_DESC"

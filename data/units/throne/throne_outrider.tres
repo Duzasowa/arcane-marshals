@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="UnitDef" format=3]
+
+[ext_resource type="Script" path="res://game/data/unit_def.gd" id="1_qrn2u"]
+
+[resource]
+script = ExtResource("1_qrn2u")
+faction = &"throne"
+tier = 4
+role = 3
+attack = 7
+defence = 7
+min_dmg = 5
+max_dmg = 8
+hp = 30
+speed = 7
+initiative = 13
+weekly_growth = 5
+cost = Dictionary[StringName, int]({
+&"gold": 250
+})
+exp = 20
+model = "res://assets/models/kaykit/adventurers/Knight.glb"
+abilities = Array[StringName]([&"cavalry", &"charge"])
+id = &"throne_outrider"
+name_key = &"UNIT_THRONE_OUTRIDER_NAME"
+desc_key = &"UNIT_THRONE_OUTRIDER_DESC"

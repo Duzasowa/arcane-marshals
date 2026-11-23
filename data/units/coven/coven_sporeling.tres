@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="UnitDef" format=3]
+
+[ext_resource type="Script" path="res://game/data/unit_def.gd" id="1_yo1bg"]
+
+[resource]
+script = ExtResource("1_yo1bg")
+faction = &"coven"
+attack = 1
+defence = 2
+max_dmg = 2
+hp = 5
+speed = 5
+initiative = 11
+weekly_growth = 16
+cost = Dictionary[StringName, int]({
+&"gold": 30
+})
+exp = 3
+model = "res://assets/models/kaykit/skeletons/Skeleton_Minion.glb"
+abilities = Array[StringName]([&"poison_cloud"])
+id = &"coven_sporeling"
+name_key = &"UNIT_COVEN_SPORELING_NAME"
+desc_key = &"UNIT_COVEN_SPORELING_DESC"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="HeroDef" format=3]
+
+[ext_resource type="Script" path="res://game/data/hero_def.gd" id="1_def"]
+
+[resource]
+script = ExtResource("1_def")
+hero_class = &"throne_chaplain"
+specialization = &"spec_order_sunlance"
+starting_army = Dictionary[StringName, int]({
+&"throne_militia": 16,
+&"throne_crossbowman": 10
+})
+starting_spells = Array[StringName]([&"order_sunlance"])
+id = &"throne_severin"
+name_key = &"HERO_THRONE_SEVERIN_NAME"
+desc_key = &"HERO_THRONE_SEVERIN_DESC"

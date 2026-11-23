@@ -1,0 +1,164 @@
+keys,en
+FACTION_THRONE_NAME,Silver Throne
+FACTION_THRONE_DESC,"A human kingdom of order and light: disciplined troops, strong defence, healing."
+FACTION_COVEN_NAME,Mire Coven
+FACTION_COVEN_DESC,"Swamp tribes of decay and nature: poison, curses, regeneration, swarms."
+UNIT_THRONE_MILITIA_NAME,Militia
+UNIT_THRONE_MILITIA_DESC,Cheap halberd levy that holds the line and soaks retaliations.
+UNIT_THRONE_CROSSBOWMAN_NAME,Crossbowman
+UNIT_THRONE_CROSSBOWMAN_DESC,A shooter dealing steady damage from afar.
+UNIT_THRONE_OUTRIDER_NAME,Outrider
+UNIT_THRONE_OUTRIDER_DESC,A fast rider who reaches enemy shooters first.
+UNIT_COVEN_SPORELING_NAME,Sporeling
+UNIT_COVEN_SPORELING_DESC,A cheap swarm of fungal creatures; there are always more.
+UNIT_COVEN_LIZARD_THROWER_NAME,Lizard Thrower
+UNIT_COVEN_LIZARD_THROWER_DESC,Hurls poisoned javelins from behind its allies.
+UNIT_COVEN_DRAGONFLY_NAME,Giant Dragonfly
+UNIT_COVEN_DRAGONFLY_DESC,"The swiftest flyer, passing over obstacles and troops."
+UI_BATTLE_WAIT,Wait
+UI_BATTLE_DEFEND,Defend
+UI_BATTLE_AUTO,Auto
+UI_BATTLE_SURRENDER,Surrender
+UI_BATTLE_GRID,Grid
+UI_BATTLE_SPEED,Speed ×%s
+UI_BATTLE_LOG,Log
+UI_BATTLE_HINT,LMB — act · W — wait / pass · D — defend · B — book · S — ability · A — auto · G — grid · Q/E — rotate · wheel — zoom
+UI_BATTLE_MORALE_GOOD,High morale!
+UI_BATTLE_MORALE_BAD,Low morale
+UI_BATTLE_LUCK_GOOD,Lucky!
+UI_BATTLE_LUCK_BAD,Unlucky
+UI_BATTLE_DAMAGE_KILLED,−%d · %d killed
+UI_BATTLE_ACTION_MOVE,Move
+UI_BATTLE_ACTION_ATTACK,Attack
+UI_BATTLE_ACTION_SHOOT,Shoot
+UI_BATTLE_ACTION_SHOOT_HALF,Shoot ½
+UI_BATTLE_FORECAST,"Damage %d–%d, kills %d–%d"
+UI_BATTLE_FORECAST_RETALIATION,Retaliation: damage %d–%d
+UI_BATTLE_NO_RETALIATION,No retaliation
+UI_BATTLE_BOT_TURN,Opponent's turn…
+UI_STAT_COUNT,Count
+UI_STAT_ATTACK,Attack
+UI_STAT_DEFENCE,Defence
+UI_STAT_DAMAGE,Damage
+UI_STAT_HP,Health
+UI_STAT_SPEED,Speed
+UI_STAT_INITIATIVE,Initiative
+UI_STAT_SHOTS,Shots
+UI_STAT_DEFENDING,Defending
+UI_LOG_TURN,Turn: %s
+UI_LOG_MOVE,%s moves
+UI_LOG_ATTACK,%s attacks %s
+UI_LOG_SHOOT,%s shoots %s
+UI_LOG_RETALIATE,%s strikes back at %s
+UI_LOG_DAMAGE,"%s: −%d, %d killed"
+UI_LOG_DIED,%s destroyed
+UI_LOG_WAIT,%s waits
+UI_LOG_DEFEND,%s defends
+UI_LOG_MORALE_GOOD,%s: high morale — another turn
+UI_LOG_MORALE_BAD,%s: low morale — turn lost
+UI_LOG_LUCK_GOOD,%s: lucky — double damage
+UI_LOG_LUCK_BAD,%s: unlucky — half damage
+UI_LOG_SURRENDER,%s surrenders
+UI_LOG_END,Battle over: %s wins
+UI_SIDE_ATTACKER,attacker
+UI_SIDE_DEFENDER,defender
+UI_RESULT_VICTORY,Victory!
+UI_RESULT_DEFEAT,Defeat
+UI_RESULT_WINNER,Winner: %s
+UI_RESULT_BY_SURRENDER,(the enemy surrendered)
+UI_RESULT_LOSSES,Losses
+UI_RESULT_NO_LOSSES,no losses
+UI_RESULT_EXPERIENCE,Experience: %d
+UI_RESULT_AGAIN,Again
+UI_RESULT_BACK,Back
+UI_QUICK_TITLE,Quick battle
+UI_QUICK_HUMAN,Player
+UI_QUICK_BOT,Bot
+UI_QUICK_SEED,Seed
+UI_QUICK_RANDOM,Random
+UI_QUICK_START,Fight
+UI_QUICK_DEMO,Demo armies
+UI_QUICK_EMPTY,—
+UI_QUICK_POWER,Army power: %d
+UI_AI_EASY,Easy
+UI_AI_NORMAL,Normal
+UI_AI_HARD,Hard
+UI_QUICK_DIFFICULTY,Bot difficulty
+UI_MENU_QUICK_BATTLE,Quick battle
+UI_MENU_QUIT,Quit
+ABILITY_ARMOR_PIERCING_NAME,Armor piercing
+ABILITY_ARMOR_PIERCING_DESC,Ignores 30% of the target's defence.
+ABILITY_ANTI_CAVALRY_NAME,Anti-cavalry
+ABILITY_ANTI_CAVALRY_DESC,+50% damage against riders.
+ABILITY_CAVALRY_NAME,Cavalry
+ABILITY_CAVALRY_DESC,A rider: vulnerable to halberds.
+ABILITY_CHARGE_NAME,Charge
+ABILITY_CHARGE_DESC,+5% damage for every cell covered before the blow.
+ABILITY_NO_RETALIATION_NAME,No retaliation
+ABILITY_NO_RETALIATION_DESC,The enemy does not strike back.
+ABILITY_NO_RETALIATION_WOUNDED_NAME,Finish the wounded
+ABILITY_NO_RETALIATION_WOUNDED_DESC,A wounded enemy does not strike back.
+ABILITY_STRIKE_ALL_ADJACENT_NAME,Sweeping strike
+ABILITY_STRIKE_ALL_ADJACENT_DESC,Hits every enemy nearby; only the target strikes back.
+ABILITY_SWALLOW_NAME,Swallow
+ABILITY_SWALLOW_DESC,"After a blow, swallows one weak creature (up to 15 HP) per own creature."
+ABILITY_HIT_AND_RETURN_NAME,Hit and return
+ABILITY_HIT_AND_RETURN_DESC,"After the blow, returns to where it started."
+ABILITY_POISON_NAME,Poison
+ABILITY_POISON_DESC,For 3 turns the target takes damage at the start of its turn: 0.5 HP per attacker.
+ABILITY_POISON_CLOUD_NAME,Poison cloud
+ABILITY_POISON_CLOUD_DESC,"When wiped out, poisons every enemy nearby for 2 turns."
+ABILITY_REGENERATION_NAME,Regeneration
+ABILITY_REGENERATION_DESC,At the start of its turn the top creature heals fully.
+UI_BATTLE_HEALED,+%d
+UI_LOG_ABILITY,%s: %s
+UI_LOG_EFFECT_ADDED,%s is under «%s»
+UI_LOG_EFFECT_ENDED,%s: «%s» wears off
+UI_LOG_HEALED,"%s: +%d HP, %d raised"
+ABILITY_COVER_NAME,Cover
+ABILITY_COVER_DESC,Allies nearby take 30% less damage; this stack takes that part on itself.
+ABILITY_STEADFAST_AURA_NAME,Steadfast
+ABILITY_STEADFAST_AURA_DESC,This stack and its neighbours never lose a turn to low morale.
+ABILITY_HEAL_NAME,Heal
+ABILITY_HEAL_DESC,"Instead of acting, heals a wounded ally: 10 HP per creature, raising the fallen."
+ABILITY_WEAKEN_NAME,Weaken
+ABILITY_WEAKEN_DESC,"Instead of acting, weakens an enemy for 3 turns: −4 attack and −4 defence."
+HERO_CLASS_THRONE_MARSHAL_NAME,Knight Marshal
+HERO_CLASS_THRONE_MARSHAL_DESC,"A Throne commander: attack and defence, strong in orders."
+HERO_CLASS_THRONE_CHAPLAIN_NAME,Dawn Chaplain
+HERO_CLASS_THRONE_CHAPLAIN_DESC,"A Throne mage: spell power and knowledge, Order magic."
+HERO_CLASS_COVEN_CHIEFTAIN_NAME,Mire Chieftain
+HERO_CLASS_COVEN_CHIEFTAIN_DESC,"A Coven warlord: a heavy attack, strong in orders."
+HERO_CLASS_COVEN_MATRON_NAME,Witch Matron
+HERO_CLASS_COVEN_MATRON_DESC,"A Coven witch: spell power and knowledge, Decay magic."
+HERO_THRONE_ISOLDE_NAME,Isolde the Steel
+HERO_THRONE_ISOLDE_DESC,Holds the line where others run.
+HERO_THRONE_SEVERIN_NAME,Father Severin
+HERO_THRONE_SEVERIN_DESC,Carries the dawn on a spear point.
+HERO_COVEN_GRIMMOK_NAME,Grimmok Mudstep
+HERO_COVEN_GRIMMOK_DESC,Leads the swarms out of the deep mire.
+HERO_COVEN_YARYNA_NAME,Matron Yaryna
+HERO_COVEN_YARYNA_DESC,Knows how rot becomes strength.
+SCHOOL_ORDER_NAME,Order
+SCHOOL_DECAY_NAME,Decay
+SPELL_ORDER_SUNLANCE_NAME,Sun Lance
+SPELL_ORDER_SUNLANCE_DESC,A ray of light strikes one enemy stack.
+SPELL_DECAY_ROT_BOLT_NAME,Rot Bolt
+SPELL_DECAY_ROT_BOLT_DESC,A clot of rot eats into one enemy stack.
+UI_BATTLE_SPELLBOOK,Spellbook
+UI_BATTLE_ABILITY,Ability
+UI_BATTLE_PASS,Pass turn
+UI_BATTLE_HERO_TURN,Hero's turn: a spell (B) or pass (W)
+UI_BATTLE_PICK_TARGET,Pick a target · RMB / Esc — cancel
+UI_BATTLE_MANA,Mana: %d / %d
+UI_BATTLE_HERO_STATS,Att %d · Def %d · Pow %d · Kno %d
+UI_BATTLE_SPELL_ROW,%s · %s · %d mana
+UI_BATTLE_SPELL_DAMAGE,damage %d
+UI_BATTLE_SPELL_FORECAST,"Damage %d, %d will die"
+UI_BATTLE_NO_SPELLS,The book is empty
+UI_BATTLE_CLOSE,Close
+UI_LOG_HERO_TURN,Hero's turn: %s
+UI_LOG_SPELL,%s: «%s» on %s
+UI_LOG_HERO_PASS,%s passes
+UI_QUICK_HERO,Hero
+UI_QUICK_NO_HERO,No hero

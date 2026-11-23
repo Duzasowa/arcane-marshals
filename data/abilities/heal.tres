@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AbilityDef" format=3]
+
+[ext_resource type="Script" path="res://game/data/ability_def.gd" id="1_def"]
+[ext_resource type="Script" path="res://game/simulation/battle/abilities/heal.gd" id="2_hook"]
+
+[resource]
+script = ExtResource("1_def")
+handler = ExtResource("2_hook")
+params = {
+&"per_creature": 10
+}
+ai_weight = 100
+id = &"heal"
+name_key = &"ABILITY_HEAL_NAME"
+desc_key = &"ABILITY_HEAL_DESC"

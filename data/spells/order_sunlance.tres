@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="SpellDef" format=3]
+
+[ext_resource type="Script" path="res://game/data/spell_def.gd" id="1_def"]
+[ext_resource type="Script" path="res://game/simulation/battle/spells/damage.gd" id="2_hook"]
+
+[resource]
+script = ExtResource("1_def")
+school = &"order"
+mana_cost = 6
+base = PackedInt32Array(12, 18, 24, 30)
+per_power = PackedInt32Array(6, 8, 10, 12)
+handler = ExtResource("2_hook")
+id = &"order_sunlance"
+name_key = &"SPELL_ORDER_SUNLANCE_NAME"
+desc_key = &"SPELL_ORDER_SUNLANCE_DESC"

@@ -1,0 +1,54 @@
+{
+	"portrait": {
+		"hero": {},
+		"creature": {
+			"throne_militia": "portraits/creatures/Heaven/ico_Peasant.png",
+			"throne_crossbowman": "portraits/creatures/Heaven/ico_Archer.png",
+			"throne_outrider": "portraits/creatures/Heaven/ico_Cavalier.png",
+			"coven_sporeling": "portraits/creatures/Necropolis/ico_Sceleton.png",
+			"coven_lizard_thrower": "portraits/creatures/Necropolis/ico_SceletonArcher.png",
+			"coven_dragonfly": "portraits/creatures/Preseve/ico_Pixie.png"
+		}
+	},
+	"icon": {
+		"resource": {
+			"gold": "icons/resources/Gold.png",
+			"wood": "icons/resources/Wood.png",
+			"ore": "icons/resources/Ore.png",
+			"crystal": "icons/resources/Crystals.png"
+		},
+		"spell": {},
+		"skill": {},
+		"perk": {},
+		"artifact": {}
+	},
+	"sound": {
+		"throne_militia/attack": "sounds/Creatures/Haven/Peasant/attack.wav",
+		"throne_militia/hit": "sounds/Creatures/Haven/Peasant/hit.wav",
+		"throne_militia/death": "sounds/Creatures/Haven/Peasant/death.wav",
+		"throne_militia/move": "sounds/Creatures/Haven/Peasant/move.wav",
+		"throne_crossbowman/attack": "sounds/Creatures/Haven/Archer/attack.wav",
+		"throne_crossbowman/shoot": "sounds/Creatures/Haven/Archer/rangeattack.wav",
+		"throne_crossbowman/hit": "sounds/Creatures/Haven/Archer/hit.wav",
+		"throne_crossbowman/death": "sounds/Creatures/Haven/Archer/death.wav",
+		"throne_crossbowman/move": "sounds/Creatures/Haven/Archer/move.wav",
+		"throne_outrider/attack": "sounds/Creatures/Haven/Paladin/champ_attack00.wav",
+		"throne_outrider/hit": "sounds/Creatures/Haven/Paladin/champ_hit.wav",
+		"throne_outrider/death": "sounds/Creatures/Haven/Paladin/champ_death.wav",
+		"throne_outrider/move": "sounds/Creatures/Haven/Paladin/champ_move.wav",
+		"coven_sporeling/attack": "sounds/Creatures/Necropolis/SkeletonWarrior/attack.wav",
+		"coven_sporeling/hit": "sounds/Creatures/Necropolis/SkeletonWarrior/hit.wav",
+		"coven_sporeling/death": "sounds/Creatures/Necropolis/SkeletonWarrior/death.wav",
+		"coven_sporeling/move": "sounds/Creatures/Necropolis/SkeletonWarrior/move.wav",
+		"coven_lizard_thrower/attack": "sounds/Creatures/Necropolis/SkeletonArcher/closeattack.wav",
+		"coven_lizard_thrower/shoot": "sounds/Creatures/Necropolis/SkeletonArcher/attack.wav",
+		"coven_lizard_thrower/hit": "sounds/Creatures/Necropolis/SkeletonArcher/hit.wav",
+		"coven_lizard_thrower/death": "sounds/Creatures/Necropolis/SkeletonArcher/Death.wav",
+		"coven_lizard_thrower/move": "sounds/Creatures/Necropolis/SkeletonArcher/move.wav",
+		"coven_dragonfly/attack": "sounds/Creatures/Sylvan/Pixie/attack.wav",
+		"coven_dragonfly/hit": "sounds/Creatures/Sylvan/Pixie/hit.wav",
+		"coven_dragonfly/death": "sounds/Creatures/Sylvan/Pixie/death.wav",
+		"coven_dragonfly/move": "sounds/Creatures/Sylvan/Pixie/move.wav",
+		"ui/click": "sounds/Interface/General/standart_click.wav"
+	}
+}

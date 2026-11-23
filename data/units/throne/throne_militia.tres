@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="UnitDef" format=3]
+
+[ext_resource type="Script" path="res://game/data/unit_def.gd" id="1_72oaq"]
+
+[resource]
+script = ExtResource("1_72oaq")
+faction = &"throne"
+attack = 2
+defence = 2
+max_dmg = 2
+hp = 5
+initiative = 9
+weekly_growth = 16
+cost = Dictionary[StringName, int]({
+&"gold": 30
+})
+exp = 3
+model = "res://assets/models/kaykit/adventurers/Barbarian.glb"
+abilities = Array[StringName]([&"anti_cavalry"])
+id = &"throne_militia"
+name_key = &"UNIT_THRONE_MILITIA_NAME"
+desc_key = &"UNIT_THRONE_MILITIA_DESC"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="HeroDef" format=3]
+
+[ext_resource type="Script" path="res://game/data/hero_def.gd" id="1_def"]
+
+[resource]
+script = ExtResource("1_def")
+hero_class = &"coven_matron"
+specialization = &"spec_decay_rot_bolt"
+starting_army = Dictionary[StringName, int]({
+&"coven_sporeling": 18,
+&"coven_lizard_thrower": 10
+})
+starting_spells = Array[StringName]([&"decay_rot_bolt"])
+id = &"coven_yaryna"
+name_key = &"HERO_COVEN_YARYNA_NAME"
+desc_key = &"HERO_COVEN_YARYNA_DESC"

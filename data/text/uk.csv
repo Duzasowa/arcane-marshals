@@ -1,0 +1,164 @@
+keys,uk
+FACTION_THRONE_NAME,Сріблястий Престол
+FACTION_THRONE_DESC,"Людське королівство порядку й світла: дисципліновані загони, сильна оборона, лікування."
+FACTION_COVEN_NAME,Ковен Трясовини
+FACTION_COVEN_DESC,"Болотні племена тліну й природи: отрута, прокляття, регенерація, рої."
+UNIT_THRONE_MILITIA_NAME,Ополченець
+UNIT_THRONE_MILITIA_DESC,"Дешевий масовий загін з алебардами, що тримає лінію й бере на себе контратаки."
+UNIT_THRONE_CROSSBOWMAN_NAME,Арбалетник
+UNIT_THRONE_CROSSBOWMAN_DESC,"Стрілець, що здалеку завдає постійної шкоди."
+UNIT_THRONE_OUTRIDER_NAME,Вершник-розвідник
+UNIT_THRONE_OUTRIDER_DESC,"Швидкий вершник, що першим досягає ворожих стрільців."
+UNIT_COVEN_SPORELING_NAME,Спорник
+UNIT_COVEN_SPORELING_DESC,"Дешевий рій грибних створінь, яких завжди багато."
+UNIT_COVEN_LIZARD_THROWER_NAME,Ящір-метальник
+UNIT_COVEN_LIZARD_THROWER_DESC,Метає отруєні списи з-за спин союзників.
+UNIT_COVEN_DRAGONFLY_NAME,Велетенська бабка
+UNIT_COVEN_DRAGONFLY_DESC,"Літун з найвищою ініціативою, що перелітає перешкоди й загони."
+UI_BATTLE_WAIT,Чекати
+UI_BATTLE_DEFEND,Оборона
+UI_BATTLE_AUTO,Авто
+UI_BATTLE_SURRENDER,Здатися
+UI_BATTLE_GRID,Сітка
+UI_BATTLE_SPEED,Швидкість ×%s
+UI_BATTLE_LOG,Журнал
+UI_BATTLE_HINT,ЛКМ — дія · W — чекати / пропустити · D — оборона · B — книга · S — здібність · A — авто · G — сітка · Q/E — поворот · колесо — зум
+UI_BATTLE_MORALE_GOOD,Бойовий дух!
+UI_BATTLE_MORALE_BAD,Розгубленість
+UI_BATTLE_LUCK_GOOD,Удача!
+UI_BATTLE_LUCK_BAD,Невдача
+UI_BATTLE_DAMAGE_KILLED,−%d · загинуло %d
+UI_BATTLE_ACTION_MOVE,Рух
+UI_BATTLE_ACTION_ATTACK,Атака
+UI_BATTLE_ACTION_SHOOT,Постріл
+UI_BATTLE_ACTION_SHOOT_HALF,Постріл ½
+UI_BATTLE_FORECAST,"Шкода %d–%d, загине %d–%d"
+UI_BATTLE_FORECAST_RETALIATION,Контратака: шкода %d–%d
+UI_BATTLE_NO_RETALIATION,Без контратаки
+UI_BATTLE_BOT_TURN,Хід суперника…
+UI_STAT_COUNT,Кількість
+UI_STAT_ATTACK,Атака
+UI_STAT_DEFENCE,Захист
+UI_STAT_DAMAGE,Шкода
+UI_STAT_HP,Здоров'я
+UI_STAT_SPEED,Швидкість
+UI_STAT_INITIATIVE,Ініціатива
+UI_STAT_SHOTS,Постріли
+UI_STAT_DEFENDING,В обороні
+UI_LOG_TURN,Хід: %s
+UI_LOG_MOVE,%s рухається
+UI_LOG_ATTACK,%s атакує %s
+UI_LOG_SHOOT,%s стріляє в %s
+UI_LOG_RETALIATE,%s дає відсіч: %s
+UI_LOG_DAMAGE,"%s: −%d, загинуло %d"
+UI_LOG_DIED,%s знищено
+UI_LOG_WAIT,%s чекає
+UI_LOG_DEFEND,%s в обороні
+UI_LOG_MORALE_GOOD,%s: бойовий дух — ще хід
+UI_LOG_MORALE_BAD,%s: розгубленість — пропуск ходу
+UI_LOG_LUCK_GOOD,%s: удача — подвійна шкода
+UI_LOG_LUCK_BAD,%s: невдача — половина шкоди
+UI_LOG_SURRENDER,%s здається
+UI_LOG_END,Бій закінчено: перемога — %s
+UI_SIDE_ATTACKER,атакувальник
+UI_SIDE_DEFENDER,захисник
+UI_RESULT_VICTORY,Перемога!
+UI_RESULT_DEFEAT,Поразка
+UI_RESULT_WINNER,Переможець: %s
+UI_RESULT_BY_SURRENDER,(суперник здався)
+UI_RESULT_LOSSES,Втрати
+UI_RESULT_NO_LOSSES,без втрат
+UI_RESULT_EXPERIENCE,Досвід: %d
+UI_RESULT_AGAIN,Ще раз
+UI_RESULT_BACK,Назад
+UI_QUICK_TITLE,Швидкий бій
+UI_QUICK_HUMAN,Гравець
+UI_QUICK_BOT,Бот
+UI_QUICK_SEED,Сід
+UI_QUICK_RANDOM,Випадковий
+UI_QUICK_START,До бою
+UI_QUICK_DEMO,Демо-армії
+UI_QUICK_EMPTY,—
+UI_QUICK_POWER,Сила армії: %d
+UI_AI_EASY,Легкий
+UI_AI_NORMAL,Звичайний
+UI_AI_HARD,Важкий
+UI_QUICK_DIFFICULTY,Складність бота
+UI_MENU_QUICK_BATTLE,Швидкий бій
+UI_MENU_QUIT,Вийти
+ABILITY_ARMOR_PIERCING_NAME,Бронебійність
+ABILITY_ARMOR_PIERCING_DESC,Ігнорує 30% захисту цілі.
+ABILITY_ANTI_CAVALRY_NAME,Проти вершників
+ABILITY_ANTI_CAVALRY_DESC,+50% шкоди по вершниках.
+ABILITY_CAVALRY_NAME,Вершник
+ABILITY_CAVALRY_DESC,Кіннота: вразлива до алебард.
+ABILITY_CHARGE_NAME,Розгін
+ABILITY_CHARGE_DESC,"+5% шкоди за кожну клітинку, пройдену перед ударом."
+ABILITY_NO_RETALIATION_NAME,Без відповіді
+ABILITY_NO_RETALIATION_DESC,Ворог не контратакує у відповідь на удар.
+ABILITY_NO_RETALIATION_WOUNDED_NAME,Добити пораненого
+ABILITY_NO_RETALIATION_WOUNDED_DESC,Поранений ворог не контратакує у відповідь на удар.
+ABILITY_STRIKE_ALL_ADJACENT_NAME,Удар навколо
+ABILITY_STRIKE_ALL_ADJACENT_DESC,Б'є всіх ворогів поруч; відповідає лише ціль.
+ABILITY_SWALLOW_NAME,Ковтання
+ABILITY_SWALLOW_DESC,Після удару ковтає по одній слабкій істоті (до 15 HP) за кожну свою.
+ABILITY_HIT_AND_RETURN_NAME,Удар з відступом
+ABILITY_HIT_AND_RETURN_DESC,"Після удару повертається туди, звідки почав рух."
+ABILITY_POISON_NAME,Отрута
+ABILITY_POISON_DESC,"Ціль 3 ходи отримує шкоду на початку свого ходу: 0,5 HP за кожного нападника."
+ABILITY_POISON_CLOUD_NAME,Хмара отрути
+ABILITY_POISON_CLOUD_DESC,"Загинувши, отруює всіх ворогів поруч на 2 ходи."
+ABILITY_REGENERATION_NAME,Регенерація
+ABILITY_REGENERATION_DESC,На початку ходу верхня істота відновлює все здоров'я.
+UI_BATTLE_HEALED,+%d
+UI_LOG_ABILITY,%s: %s
+UI_LOG_EFFECT_ADDED,%s під дією «%s»
+UI_LOG_EFFECT_ENDED,%s: «%s» минає
+UI_LOG_HEALED,"%s: +%d HP, піднято %d"
+ABILITY_COVER_NAME,Прикриття
+ABILITY_COVER_DESC,Сусідні союзники отримують на 30% менше шкоди — цю частину загін бере на себе.
+ABILITY_STEADFAST_AURA_NAME,Непохитність
+ABILITY_STEADFAST_AURA_DESC,Загін і його сусіди не втрачають ходів через погану мораль.
+ABILITY_HEAL_NAME,Лікування
+ABILITY_HEAL_DESC,"Замість дії лікує пораненого союзника: 10 HP за кожну істоту, підіймає полеглих."
+ABILITY_WEAKEN_NAME,Послаблення
+ABILITY_WEAKEN_DESC,Замість дії послаблює ворога на 3 ходи: −4 атаки й −4 захисту.
+HERO_CLASS_THRONE_MARSHAL_NAME,Лицар-маршал
+HERO_CLASS_THRONE_MARSHAL_DESC,"Полководець Престолу: напад і захист, сильний у наказах."
+HERO_CLASS_THRONE_CHAPLAIN_NAME,Капелан Світанку
+HERO_CLASS_THRONE_CHAPLAIN_DESC,"Маг Престолу: сила магії й знання, магія Порядку."
+HERO_CLASS_COVEN_CHIEFTAIN_NAME,Вождь трясовини
+HERO_CLASS_COVEN_CHIEFTAIN_DESC,"Ватажок Ковену: потужний напад, сильний у наказах."
+HERO_CLASS_COVEN_MATRON_NAME,Матрона-відьма
+HERO_CLASS_COVEN_MATRON_DESC,"Відьма Ковену: сила магії й знання, магія Тліну."
+HERO_THRONE_ISOLDE_NAME,Ізольда Сталева
+HERO_THRONE_ISOLDE_DESC,"Тримає стрій там, де інші тікають."
+HERO_THRONE_SEVERIN_NAME,Отець Северин
+HERO_THRONE_SEVERIN_DESC,Несе світанок на вістрі списа.
+HERO_COVEN_GRIMMOK_NAME,Грімок Мулоступ
+HERO_COVEN_GRIMMOK_DESC,Веде рої з глибин трясовини.
+HERO_COVEN_YARYNA_NAME,Матрона Ярина
+HERO_COVEN_YARYNA_DESC,"Знає, як гниль стає силою."
+SCHOOL_ORDER_NAME,Порядок
+SCHOOL_DECAY_NAME,Тлін
+SPELL_ORDER_SUNLANCE_NAME,Сонячний спис
+SPELL_ORDER_SUNLANCE_DESC,Промінь світла б'є один ворожий загін.
+SPELL_DECAY_ROT_BOLT_NAME,Гнилий згусток
+SPELL_DECAY_ROT_BOLT_DESC,Згусток гнилі роз'їдає один ворожий загін.
+UI_BATTLE_SPELLBOOK,Книга заклинань
+UI_BATTLE_ABILITY,Здібність
+UI_BATTLE_PASS,Пропустити хід
+UI_BATTLE_HERO_TURN,Хід героя: заклинання (B) або пропуск (W)
+UI_BATTLE_PICK_TARGET,Оберіть ціль · ПКМ / Esc — скасувати
+UI_BATTLE_MANA,Мана: %d / %d
+UI_BATTLE_HERO_STATS,Нап %d · Зах %d · Сила %d · Знан %d
+UI_BATTLE_SPELL_ROW,%s · %s · %d мани
+UI_BATTLE_SPELL_DAMAGE,шкода %d
+UI_BATTLE_SPELL_FORECAST,"Шкода %d, загине %d"
+UI_BATTLE_NO_SPELLS,Книга порожня
+UI_BATTLE_CLOSE,Закрити
+UI_LOG_HERO_TURN,Хід героя: %s
+UI_LOG_SPELL,%s: «%s» на %s
+UI_LOG_HERO_PASS,%s пропускає хід
+UI_QUICK_HERO,Герой
+UI_QUICK_NO_HERO,Без героя

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="UnitDef" format=3]
+
+[ext_resource type="Script" path="res://game/data/unit_def.gd" id="1_2pl68"]
+
+[resource]
+script = ExtResource("1_2pl68")
+faction = &"coven"
+tier = 2
+role = 1
+attack = 3
+defence = 3
+min_dmg = 2
+max_dmg = 3
+hp = 10
+shots = 8
+weekly_growth = 12
+cost = Dictionary[StringName, int]({
+&"gold": 60
+})
+exp = 6
+model = "res://assets/models/kaykit/skeletons/Skeleton_Rogue.glb"
+abilities = Array[StringName]([&"poison"])
+id = &"coven_lizard_thrower"
+name_key = &"UNIT_COVEN_LIZARD_THROWER_NAME"
+desc_key = &"UNIT_COVEN_LIZARD_THROWER_DESC"

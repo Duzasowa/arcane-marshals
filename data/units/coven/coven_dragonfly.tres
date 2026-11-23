@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="UnitDef" format=3]
+
+[ext_resource type="Script" path="res://game/data/unit_def.gd" id="1_fbia3"]
+
+[resource]
+script = ExtResource("1_fbia3")
+faction = &"coven"
+tier = 4
+role = 3
+attack = 7
+defence = 6
+min_dmg = 5
+max_dmg = 7
+hp = 24
+speed = 7
+initiative = 15
+flying = true
+weekly_growth = 5
+cost = Dictionary[StringName, int]({
+&"gold": 250
+})
+exp = 19
+model = "res://assets/models/kaykit/skeletons/Skeleton_Mage.glb"
+abilities = Array[StringName]([&"hit_and_return"])
+id = &"coven_dragonfly"
+name_key = &"UNIT_COVEN_DRAGONFLY_NAME"
+desc_key = &"UNIT_COVEN_DRAGONFLY_DESC"

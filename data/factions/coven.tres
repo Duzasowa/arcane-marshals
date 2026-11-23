@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="FactionDef" format=3]
+
+[ext_resource type="Script" path="res://game/data/faction_def.gd" id="1_h2kx2"]
+
+[resource]
+script = ExtResource("1_h2kx2")
+school = &"decay"
+color = Color(0.36, 0.56, 0.3, 1)
+id = &"coven"
+name_key = &"FACTION_COVEN_NAME"
+desc_key = &"FACTION_COVEN_DESC"

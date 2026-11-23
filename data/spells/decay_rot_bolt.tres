@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="SpellDef" format=3]
+
+[ext_resource type="Script" path="res://game/data/spell_def.gd" id="1_def"]
+[ext_resource type="Script" path="res://game/simulation/battle/spells/damage.gd" id="2_hook"]
+
+[resource]
+script = ExtResource("1_def")
+school = &"decay"
+mana_cost = 5
+base = PackedInt32Array(10, 15, 20, 25)
+per_power = PackedInt32Array(6, 8, 10, 12)
+handler = ExtResource("2_hook")
+id = &"decay_rot_bolt"
+name_key = &"SPELL_DECAY_ROT_BOLT_NAME"
+desc_key = &"SPELL_DECAY_ROT_BOLT_DESC"
